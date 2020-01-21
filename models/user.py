@@ -40,3 +40,4 @@ class Service(object):
         if(self._AveragePrice==None):
             self._AveragePrice = _AveragePriceService.getAveratePrice(_AveragePriceService.getIndex())
 
+        return self._AveragePrice
